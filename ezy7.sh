@@ -37,7 +37,7 @@ Screen width = 1024
 Screen height = 768
 Disk 0 = $DIR/BasiliskII/Disks/MacHD.dsk
 Disk 1 = $DIR/BasiliskII/Disks/MacOS7.dsk
-Shared Folder = /Users/jnelson/BasiliskII/Shared
+Shared Folder = $DIR/BasiliskII/Shared
 EOL
 
 echo Downloading required files for BasiliskII from itzJPN.github.io/IJAF/installation/ezy7/
@@ -72,7 +72,7 @@ sleep 3
 echo Opening your new VM!
 
 ./BasiliskII.app/Contents/MacOS/BasiliskII \
-  --rom /Users/jnelson/BasiliskII/ROMS/MacIIci.ROM \
-  --disk /Users/jnelson/BasiliskII/Disks/MacOS7.dsk \
+  --rom $DIR/BasiliskII/ROMS/MacIIci.ROM \
+  --disk $DIR/BasiliskII/Disks/MacOS7.dsk \
   --ramsize 67108864 \
   --fpu true
