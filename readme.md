@@ -1,4 +1,4 @@
-# ezy7
+# Introduction
 
 ezy7 allows you to easily install BasiliskII without the hiccups, the complex configs, ROMs, and more. 
 
@@ -23,3 +23,13 @@ Shared
 > ***Note on Disks/MacHD.dsk***
 >
 > This MacHD.dsk file is a blank disk that is 800MB for the alternative installation install of MacOS 7 instead of booting it on the system floppy image. 
+
+# Running ezy7
+
+You can easily run ezy7 by downloading ezy7.sh from this repo, then running it by entering in this command:
+
+```bash
+chmod +x /path/to/ezy7.sh; ./path/to/ezy7.sh
+```
+
+**Note: Replace `/path/to/ezy7.sh` to the location on where you put ezy7**
